@@ -1,0 +1,30 @@
+- model: users.permissioncode
+  pk: 1
+  fields:
+    code: 600
+    description: Regular User
+- model: users.permissioncode
+  pk: 2
+  fields:
+    code: 500
+    description: Dealer
+- model: users.permissioncode
+  pk: 3
+  fields:
+    code: 400
+    description: Employee
+- model: users.permissioncode
+  pk: 4
+  fields:
+    code: 300
+    description: Manager
+- model: users.permissioncode
+  pk: 5
+  fields:
+    code: 200
+    description: C(X)O
+- model: users.permissioncode
+  pk: 6
+  fields:
+    code: 100
+    description: Super User
