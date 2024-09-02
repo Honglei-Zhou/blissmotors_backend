@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'xa73o8t)_9kyj9by*c_ne(etf)1cd=(2rdp!t^c5b2bt6rev3f'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -245,6 +245,6 @@ STATIC_URL = '/static/'
 # stripe_key = os.environ['STRIPE_KEY']
 # project_id = os.environ['DIALOGFLOW_ID']
 
-stripe_key = 'sk_test_fjCFAT1FOUrlcs3oX8RjqPIr00HaTg36Ww'
+stripe_key = ''
 project_id = 'newagent-c47af'
 
